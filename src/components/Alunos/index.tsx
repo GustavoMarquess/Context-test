@@ -11,7 +11,7 @@ export function Alunos(){
     const{qtdAlunos} = useContext(UserContext)
     return(
         <div>
-            <h3>Quantidade de aluno: {qtdAlunos}</h3>
+            <h3>Quantidade de Alunos Cadastrados: {qtdAlunos}</h3>
             <br />
         </div>
     )
